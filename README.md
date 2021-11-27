@@ -34,7 +34,7 @@ A ROS service is a client/server system
 
 Services are another way to pass data between nodes in ROS. Services are just synchronous remote procedure calls, they allow one node to call a function that executes in another node. Service calls are well suited to things that you only need to do occasionally and that take a bounded amount of time to complete.
 
-A service is defined by a name, and a pair of messages. One message is the request, one message is the response. You must respect the format of the data on both side of the communication.
+A service is defined by a name, and a pair of messages. One message is the request, one message is the response. You must respect the format of the data on both sides of the communication.
 
 You can directly create service clients and servers inside ROS nodes, using for example, the roscpp library for c++ and the rospy library for Python.
 
