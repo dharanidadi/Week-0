@@ -49,7 +49,12 @@ Finally, a service server can only exist once, but can have many clients. And ba
 A centralized parameter server keeps track of a collection of values-things like integers, floating point numbers, strings, or other data-each identified by a short string name.
 
 A ROS parameter is basically just one of the shared variable stored in the parameter server.
+Ex:
 ![](parameters.jpg)
+In this example, we have 4 nodes included in 3 different packages. As you can see, any node from any package can get access to the ROS parameter server. The only condition is that the nodes should be on the same environment as the ROS master.
+
+When node A is started, it can add a new parameter into the parameter server. If node B starts after node A, node B will have access to this new parameter.
+
 
 
 
