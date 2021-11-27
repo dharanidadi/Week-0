@@ -49,6 +49,7 @@ Finally, a service server can only exist once, but can have many clients. And ba
 A centralized parameter server keeps track of a collection of values-things like integers, floating point numbers, strings, or other data-each identified by a short string name.
 
 A ROS parameter is basically just one of the shared variable stored in the parameter server.
+![](parameters.jpg)
 
 
 
