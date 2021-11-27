@@ -1,4 +1,18 @@
+* __Ubuntu Installation__ :
+For using ROS framework Ubuntu is necessary:
+(It's Preferable that you install Ubuntu 16.04)
+Follow this [Tutorial](https://parthvpatil.github.io/tutorial/2019/06/03/ubuntu.html "Ubuntu Installation") to install ubuntu in your laptop.  
+<span style="color:red">[WARNING], Do at your own risk! We will be not responsible if you lose your data. __Follow instructions carefully and make backups before you start!__</span>
 
+* __Get familiar with Linux__:
+Here are a few resources that you can refer to in order to get familiar with Linux:
+	* [Video-based Tutorial](https://www.youtube.com/watch?v=IVquJh3DXUA "Introduction to Linux and Basic Linux Commands for Beginners")
+	* [Text-based Tutorial](https://ryanstutorials.net/linuxtutorial/ "Linux Tutorial")
+
+* __ROS Installation/setup__:
+	- For Ubuntu 16.04: [ROS Kinetic Kame](http://wiki.ros.org/kinetic/Installation "kinetic/Installation")
+	- For Ubuntu 18.04: [ROS Melodic Morena](http://wiki.ros.org/melodic/Installation "melodic/Installation")    
+Go to a particular link and put your first step in the world of ROS.
 ### Nodes
 One of the primary purposes of ROS is to facilitate communication between the ROS nodes. Every program in ROS is called a **node**. Every independent task can be separated into nodes which communicate with each other through channels. These channels are also known as **topics**.
 
