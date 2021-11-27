@@ -27,7 +27,6 @@ When a node wants to publish something, it will inform the ROS master. When anot
 (The rosmaster package implements the ROS Master. Most programs will not need to interact with this package directly. The rosmaster is run automatically whenever `roscore` is run and all communication with the Master happens over XMLRPC APIs.)
 
 Finally, a node can contain many publishers and subscribers for many different topics.
-![](parameters.jpg)
 
 ### Services
 
