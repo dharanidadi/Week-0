@@ -41,6 +41,7 @@ You can directly create service clients and servers inside ROS nodes, using for 
 Finally, a service server can only exist once, but can have many clients. And basically, the service will be created when you create the server.
 
 (Topics will be used for unidirectional data streams, and services will be used when you need a client/server architecture.)
+![](
 
 
 
