@@ -43,6 +43,13 @@ Finally, a service server can only exist once, but can have many clients. And ba
 (Topics will be used for unidirectional data streams, and services will be used when you need a client/server architecture.)
 ![](Nodes-TopicandService.gif)
 
+### Parameters
+
+A centralized parameter server keeps track of a collection of values-things like integers, floating point numbers, strings, or other data-each identified by a short string name.
+
+A ROS parameter is basically just one of the shared variable stored in the parameter server.
+
+
 
 
 
